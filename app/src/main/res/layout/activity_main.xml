@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AlmoxarifadoActivity"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/itemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/nome_do_item"
+        android:minHeight="48dp"
+        android:inputType="text"
+        tools:ignore="VisualLintTextFieldSize" /> <!-- Define o inputType como "text" para aceitar texto -->
+
+    <EditText
+        android:id="@+id/itemQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/quantidade_do_item"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" /> <!-- Define o inputType como "number" para aceitar números --><![CDATA[
+        android:minHeight="48dp" />
+
+    ]]><Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dictionaryItems"
+        android:text="@string/adicionar_item" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listar_itens"
+        android:onClick="listarItens" />
+
+    <TextView
+        android:id="@+id/stockTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/itens_em_estoque" /> <!-- Use o recurso de string para evitar "HardcodedText" -->
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290660469453",
+    "project_id": "almoxarifado-86a07",
+    "storage_bucket": "almoxarifado-86a07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290660469453:android:8631df69dcb63c7c627784",
+        "android_client_info": {
+          "package_name": "com.example.my"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290660469453-grf7keakvgd6hj4s9hbbm01lubkitrb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6yNE4zD9TJy9hhZ2GN6VettfjqN9GeDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290660469453-grf7keakvgd6hj4s9hbbm01lubkitrb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_quantity">Item Quantity</string>
+    <string name="add_item">Add Item</string>
+    <string name="list_items">List Items</string>
+    <string name="stock_items">Stock Items:</string>
+    <string name="adicionar_item">Adicionar Item</string>
+    <string name="listar_itens">Listar Itens</string>
+    <string name="nome_do_item">Nome do item</string>
+    <string name="quantidade_do_item">Quantidade do item</string>
+    <string name="itens_em_estoque" />
+</resources>
